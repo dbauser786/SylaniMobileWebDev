@@ -1,0 +1,241 @@
+<html>
+<!-- This Assignment Prepared by Shah Faisal (Roll#: WM10326, Mobile#: 03328266779, Email: faisal.shah77@gmail.com) -->
+<head>
+    <title>Student Online Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+         <!-- form     -->
+        <div id="formdiv">
+            <div id="maindiv">
+                <div id="imgdiv">
+                    <img class="headerimage" src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png"
+                        alt="SYLANI iamge">
+                    <h2 class="headertext"> <u>Student Registration Form</u> </h2>      
+                </div>
+            <form action="submited.html" method="POST">
+
+                <table  border="0" id="tablehdiv">
+                    <tr class="roww">
+                        <!-- set span fornt -->
+                        <div>
+                            <td class="feildlabel">FIRST NAME</td>
+                            <td><input ztype="text" name="firstname" id="fname" maxlength="30"
+                                    placeholder="Enter first name" class="feild" required="required">
+                                    <span class="feild_remarks">(max 30 Character a-z and A-Z)</span></td>
+                                    
+                            <!-- <td><span class="feild_remarks">(max 30 Character a-z and A-Z)</span></td> -->
+                        </div>
+                    </tr>
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">LAST NAME</td>
+                            <td><input type="text" name="lastname" id="lname" maxlength="30"
+                                    placeholder="Enter last name" class="feild" required="required">
+                                    <span class="feild_remarks">(max 30 Character a-z and A-Z)</span>
+                                </td>
+                            <!-- <td><span class="feild_remarks">(max 30 Character a-z and A-Z)</span></td> -->
+                        </div>
+                    </tr>
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">DATE OF BIRTH</td>
+                            <td > <div class="feild">
+                                <SELEct >
+                                    <option value="Day">Day:</option>
+                                </SELEct>
+                                <SELEct>
+                                    <option value="Month">Month:</option>
+                                </SELEct>
+                                <SELEct>
+                                    <option value="Year">Year:</option>
+                                </SELEct>
+                            </div>
+                            </td>
+
+                        </div>
+                    </tr class="roww">
+					<div>
+						<tr class="roww">
+							<th>DATE OF BIRTH</th>
+						<td>	
+						<input type="date" name="dob" size="30" >
+					</div>	
+						</td>
+					</tr class="roww">
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">EMAIL ID</td>
+                            <td><input type="email" name="email" id="email" placeholder="Enter email Address"
+                                    class="feild"></td>
+
+                        </div>
+                    </tr>
+
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">MOBILE NUMBER</td>
+                            <td><input type="number" name="mobilenum" id="mobilenumber"
+                                    placeholder="Enter mobile Number" class="feild">
+                                    <span class="feild_remarks">(10 digit number)</span>
+                                </td>
+                            <td></td>
+                            <!-- <td><input type="text" name="mobilenum" id="mobilenumber" maxlength="30" placeholder="Enter mobile number" ><span class="feild_remarks">(10 digit number)</span></td> -->
+                        </div>
+                    </tr>
+
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">GENDER</td>
+                            <td><span class="feildlabel feild">Male</span><input type="radio" name="male" id="male"
+                                    value="male" >
+                                    <span class="feildlabel feild">Female</span><input type="radio" name="female" id="female"
+                                    value="female" >
+                                </td>
+                        </div>
+
+                        
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">ADDRESS</td>
+                            <td colspan="2"> <textarea name="" id="" cols="45" rows="6" class="feild"></textarea>
+                                </td>
+                        </div>
+                    </tr>
+                    <tr class="roww">
+                        <!-- set span fornt -->
+                        <div>
+                            <td class="feildlabel">CITY</td>
+                            <td><input type="text" name="firstname" id="fname" maxlength="30"
+                                    placeholder="Enter city name" class="feild">
+                                    <span class="feild_remarks">(max 30 Character a-z and A-Z)
+                                    </td>
+                            <!-- <td><span class="feild_remarks">(max 30 Character a-z and A-Z)</span></td> -->
+                        </div>
+                    </tr>
+
+                    <tr class="roww">
+                        <!-- set span fornt -->
+                        <div>
+                            <td class="feildlabel">PIN CODE</td>
+                            <td><input type="text" name="firstname" id="fname" maxlength="30"
+                                    placeholder="Enter pincode" class="feild">
+                                    <span class="feild_remarks">(6 digit number)</span>
+                                </td>
+                            <!-- <td></td> -->
+                        </div>
+                    <tr class="roww">
+                        <!-- set span fornt -->
+                        <div>
+                            <td class="feildlabel">STATE</td>
+                            <td><input type="text" name="firstname" id="fname" maxlength="30"
+                                    placeholder="Enter state" class="feild">
+                                    <span class="feild_remarks">(max 30 Character a-z and A-Z)</span>
+                                </td>
+                            <!-- <td><span class="feild_remarks">(max 30 Character a-z and A-Z)</span></td> -->
+                        </div>
+                    </tr>
+                    <tr class="roww">
+                        <!-- set span fornt -->
+                        <div>
+                            <td class="feildlabel">COUNTRY</td>
+                            <td><input type="text" name="firstname" id="fname" maxlength="30"
+                                    placeholder="Enter countery" class="feild"></td>
+                            
+                        </div>
+                        <tr class="roww">
+                            <!-- set span fornt -->
+                            <div>
+                                <td  class="feildlabel">HOBBIES</td>
+                                <td colspan="2">
+                                   <div class="feild"><span class="feildlabel">Drawing</span> <input type="checkbox" name="drawing" id="drawingchek" >
+                                    <span class="feildlabel">Singing</span><input type="checkbox" name="singing" id="singingchek" >
+                                    <span class="feildlabel">Dancing</span><input type="checkbox" name="dancing" id="dancingchek" >
+                                    <span class="feildlabel">Sketching</span><input type="checkbox" name="Sketching" id="Sketchingchek">
+                                    <br>
+                                    <span class="feildlabel">Others</span><input type="checkbox" name="" id="">
+                                    <input type="text" name="otherchk" id="othercheck">
+                                </div>
+                                </td>
+                                
+                            </div>
+                        </tr> 
+                        
+                        
+                        <tr class="roww">
+                            <!-- set span fornt -->
+                            <div>
+                                <td class="feildlabel">QUALIFICATION</td>
+                                <td colspan="2">
+                                    <table class="nestedtable" >
+                                        <tr >
+                                            <th style="text-align: center;" class="feildlabel">Sno.</thq>
+                                            <th style="text-align: center;" class="feildlabel">Eaxmination</th>
+                                            <th style="text-align: center;" class="feildlabel">Board</th>
+                                            <th style="text-align: center;" class="feildlabel">Percentage(%)</th>
+                                            <th style="text-align: center;" class="feildlabel">Year of Passing</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="feildlabel">1</td>
+                                            <td class="feildlabel">Class X</td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                        </tr><tr>
+                                            <td class="feildlabel">2</td>
+                                            <td class="feildlabel">Class XII</td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                        </tr><tr>
+                                            <td class="feildlabel">3</td>
+                                            <td class="feildlabel">Graduation</td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                        </tr><tr>
+                                            <td class="feildlabel">4</td>
+                                            <td class="feildlabel">Masters </td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                            <td><input type="text"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td> </td>
+                                            <td style="text-align: center;" class="feild_remarks">(10 char max)</td>
+                                            <td style="text-align: center;" class="feild_remarks">(10 char max)</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                                
+                            </div>
+                        </tr>
+    
+                    </tr>   
+
+                    <tr class="roww">
+                        <div>
+                            <td class="feildlabel">COURSES APPLIED FOR</td>
+                            <td>
+                                <span class="feildlabel feild">BCA</span><input type="radio" name="course" value="bca" >
+                                <span class="feildlabel feild">B.Com</span><input type="radio" name="course" value="bcom" >
+                                <span class="feildlabel feild">B.Sc</span><input type="radio" name="course" value="bsc" >
+                                <span class="feildlabel feild">B.A</span><input type="radio" name="course" value="ba" >
+                            </td>
+                        </div>
+                </table>
+                <div style="text-align: center; padding: 10px;">
+                    <input type="submit" value="Submit" id="submitbtn"> <input type="reset" id="reset">
+                </div>
+				<!-- form-footer -->
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

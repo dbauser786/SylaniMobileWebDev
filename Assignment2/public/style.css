@@ -1,0 +1,62 @@
+
+#formdiv{
+    margin-left: 450px;
+    width: fit-content;
+}
+#imgdiv, .headertext {
+    text-align: center;
+}
+
+.headerimage {
+    width: max-content;
+}
+
+.headertext {
+    font-family: sans-serif;
+    color: rgb(107, 90, 205);
+    font-size: 33px;
+}
+
+form {
+    /* margin-left: 400px; */
+    /* text-align: center; */
+    /* background-color: darkorchid; */
+    border: black solid;
+    width: 820px;
+    background-color: rgb(107, 90, 205);
+}
+
+.rowdiv {
+    /* margin-bottom: 20px; */
+}
+
+#tablediv {
+
+}
+
+.roww {
+    padding: 100px;
+}
+
+.feildlabel, .feild_remarks {
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 18%;
+}
+
+
+
+.feild_remarks {
+    font-size: 12px;
+   
+}
+
+td{
+    padding: 10px;
+    
+}
+.nestedtable td{
+    padding: 0px;
+}
